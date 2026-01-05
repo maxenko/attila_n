@@ -820,6 +820,46 @@ textarea {
 			}
 		}
 	}
+
+	// KG Header Card
+	.kg-header-card {
+		h2.kg-header-card-heading {
+			color: var(--color-content-lead);
+		}
+
+		h3.kg-header-card-subheading {
+			color: var(--color-content-secondary);
+		}
+	}
+
+	// KG Callout Card
+	.kg-callout-card {
+		.kg-callout-text {
+			color: var(--color-content-main);
+		}
+	}
+
+	// KG Signup Card
+	.kg-signup-card {
+		h2.kg-signup-card-heading {
+			color: var(--color-content-lead);
+		}
+
+		h3.kg-signup-card-subheading {
+			color: var(--color-content-secondary);
+		}
+	}
+
+	// KG Product Card
+	.kg-product-card {
+		.kg-product-card-title {
+			color: var(--color-content-lead);
+		}
+
+		.kg-product-card-description {
+			color: var(--color-content-main);
+		}
+	}
 }
 /* ==========================================================================
     Misc
