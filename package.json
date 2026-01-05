@@ -88,6 +88,34 @@
         ],
         "default": "Default",
         "group": "post"
+      },
+      "nav_padding": {
+        "type": "text",
+        "description": "e.g. 2rem 4rem, 1rem 2rem",
+        "default": ""
+      },
+      "logo_height": {
+        "type": "text",
+        "description": "e.g. 4rem, 50px",
+        "default": ""
+      },
+      "header_padding": {
+        "type": "text",
+        "description": "e.g. 200px, 20rem",
+        "default": ""
+      },
+      "header_box_padding": {
+        "type": "text",
+        "description": "e.g. 4rem, 50px",
+        "default": ""
+      },
+      "banner_logo": {
+        "type": "image"
+      },
+      "banner_logo_height": {
+        "type": "text",
+        "description": "e.g. 20rem, 200px",
+        "default": ""
       }
     }
   },

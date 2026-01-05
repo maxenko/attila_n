@@ -914,10 +914,10 @@ textarea {
 
 .blog-header {
 	position: relative;
-	padding-top: calc(16rem + 4vw);
+	padding-top: var(--header-height);
 
 	&.has-cover {
-		padding-top: calc(24rem + 8vw);
+		padding-top: var(--header-height-cover);
 		color: white;
 		background: black;
 		overflow: hidden;
@@ -931,14 +931,14 @@ textarea {
 	.blog-box {
 		position: relative;
 		z-index: 10;
-		padding-bottom: calc(4rem + 2vw);
+		padding-bottom: var(--header-box-padding);
 		text-align: center;
 		border-bottom: 1px solid var(--color-background-contrast);
 	}
 
 	&.has-cover .blog-box {
 		border: none;
-		padding-bottom: calc(8rem + 4vw);
+		padding-bottom: var(--header-box-padding-cover);
 	}
 }
 
@@ -1004,6 +1004,12 @@ textarea {
 
 .has-cover .blog-description {
 	color: white;
+}
+
+.banner-logo {
+	max-width: 100%;
+	max-height: var(--banner-logo-height);
+	height: auto;
 }
 
 .archive {
@@ -1281,7 +1287,7 @@ textarea {
 .nav-header .nav-wrapper {
 	display: flex;
 	max-height: calc(100vh - 6rem);
-	padding: 2rem 4rem;
+	padding: var(--nav-padding);
 	overflow-y: auto;
 
 	@media only screen and (max-width: $breakpoint-medium) {
@@ -1307,13 +1313,13 @@ textarea {
 
 	a {
 		display: block;
-		height: 4rem;
+		height: var(--logo-height);
 		padding: 0;
 
 		img {
 			display: block;
 			width: auto;
-			height: 4rem;
+			height: var(--logo-height);
 		}
 	}
 }
@@ -1744,11 +1750,11 @@ textarea {
    ========================================================================== */
 .post-header {
 	position: relative;
-	padding: calc(16rem + 4vw) 0 calc(2rem + 2vw);
+	padding: var(--post-header-height) 0 calc(2rem + 2vw);
 }
 
 .post-header.has-cover {
-	padding: calc(16rem + 8vw) 0 calc(4rem + 6vw);
+	padding: var(--post-header-height-cover) 0 calc(4rem + 6vw);
 	margin-bottom: calc(4rem + 2vw);
 	background: black;
 	overflow: hidden;

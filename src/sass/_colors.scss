@@ -6,6 +6,15 @@
   --color-content-lead: #000;
   --color-content-main: #222426;
   --color-content-secondary: #73777D;
+  --header-height: calc(16rem + 4vw);
+  --header-height-cover: calc(24rem + 8vw);
+  --post-header-height: calc(16rem + 4vw);
+  --post-header-height-cover: calc(16rem + 8vw);
+  --nav-padding: 2rem 4rem;
+  --logo-height: 4rem;
+  --header-box-padding: calc(4rem + 2vw);
+  --header-box-padding-cover: calc(8rem + 4vw);
+  --banner-logo-height: 20rem;
 }
 
 .theme-dark:root {

@@ -97,18 +97,7 @@
 			</section>
 			{{/if}}
 
-			{{#if comments}}
-			<section class="post-comments">
-				{{comments}}
-			</section>
-			{{/if}}
-
-      {{#if @labs.subscribers}}
-      <section class="post-subscribe">
-				<p>{{t "Get the latest posts delivered right to your inbox."}}</p>
-        {{subscribe_form placeholder=(t "Your email address") form_class="post-subscribe-form" input_class="post-subscribe-input" button_class="post-subscribe-button"}}
-      </section>
-      {{/if}}
+			{{!-- Comments and subscribe disabled --}}
 
 			{{!-- Links to Previous/Next posts --}}
 			<aside class="post-nav">
